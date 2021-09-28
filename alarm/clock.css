@@ -1,0 +1,75 @@
+ *{
+    box-sizing: border-box;
+   }
+   
+   html {
+       padding-top:50px;
+   }
+   
+   
+   
+   body {
+       border: 8px solid rgb(222, 222, 226);
+       border-radius: 10px;
+       padding: 40px;
+       width: 60%;
+       height: 400px;
+       margin: 0 auto;
+       background:url(https://www.desktopbackground.org/download/o/2012/06/03/399807_clock-wallpapers-hd-wallpapers-pretty_800x651_h.jpg)
+       }
+   
+   #clock {
+       height:120px;
+       font-size: 40px;
+       font-family:cursive;
+       font-weight: bold;
+       background-blend-mode: normal;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+     color: rgba(252, 240, 243, 0.952);
+   }
+   
+   h2 {
+    text-align:center;
+     
+   
+   }
+   
+   #alarm-container {
+    text-align:center;
+       font-family:cursive;
+       font-size: 0.6em;
+       padding: 0.7em;
+     color: white;
+   }
+   
+   label {
+    display:inline-block;
+   }
+   
+   .timeofday {
+       background-color: rgb(165, 147, 147);
+   }
+   
+   .bigger {
+       font-weight:bold;
+       font-size: 18px;
+   }
+   
+   #sounds {
+       text-align: center;
+       padding-top: 20px;
+   }
+   
+   #setButton {
+       float:left;
+       background-color:rgb(20, 233, 102);
+       margin-top:10px;
+   }
+   #clearButton {
+       float:right;
+       background-color:rgb(201, 238, 34);
+       margin-top:10px;
+   }
+      
